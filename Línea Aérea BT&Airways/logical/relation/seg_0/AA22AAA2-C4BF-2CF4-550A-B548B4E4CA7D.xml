@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Origen" directorySegmentName="seg_0" id="AA22AAA2-C4BF-2CF4-550A-B548B4E4CA7D">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 06:55:38 UTC</createdTime>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="864B3CFE-B0C9-6BC1-352B-A898BB8A35DC" value="true"/>
+</engineerTo>
+<sourcePk>C305C19C-F967-9AFB-9E9D-0D2925B2441F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Realiza:</nameOnSource>
+<nameOnTarget>Pertenece a:</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A198E4E9-6E1F-6D6D-F1D9-B321658C62D1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C1198829-17AA-EBE2-355F-EB79ADAE31E8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

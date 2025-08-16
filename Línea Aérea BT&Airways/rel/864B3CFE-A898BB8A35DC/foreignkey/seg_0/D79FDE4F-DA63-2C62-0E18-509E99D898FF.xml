@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D79FDE4F-DA63-2C62-0E18-509E99D898FF" containerWithKeyObject="12E2F441-EF14-04AA-AAC5-C514979A5650" localFKIndex="177EEAA8-9C70-E4A9-4B72-F643DB1AEA1F" name="Reserva_Pasajeros_FK">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:09 UTC</createdTime>
+<generatorID>AA22AAA2-C4BF-2CF4-550A-B548B4E4CA7D</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<referredTableLongName>Pasajeros</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D8F7CE9-2D01-13A6-D879-492C6E002B02</referredTableID>
+<keyObject>8D550E8E-3557-39D5-81E8-951F0EF9F49D</keyObject>
+<referredKeyID>8D550E8E-3557-39D5-81E8-951F0EF9F49D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NumeroPasaporte</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

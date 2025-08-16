@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="601E4F3D-C74B-B817-C699-C2E0DA729B82" name="Empleado">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>1CDFD0B0-07B9-1B55-D871-279C68779067</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT" id="91184C67-2627-972E-0A54-71B0128FA288">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>F442B075-41BC-3990-3BB1-2CE464A6204C</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreCompleto" id="57939E09-21DC-2FB9-AC7E-60CF28485470">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>35369C58-2BBD-1890-AF6C-6A25AEE61AA4</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="D8B706DD-468B-0371-8A9E-12D39AB0459C">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>33C9BE26-FCBC-168C-10FE-8EC904677B7A</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SueldoBase" id="6D665DEB-0577-4E38-14DC-D9250E6D14D1">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>00346526-A986-E0C0-C254-C8DC063F61CF</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaIngreso" id="A6BBC629-4254-7C00-504C-1F2B32FF4D1E">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>DE0AFE79-2FEE-14C6-F2F0-4A811D5411C0</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genero" id="B86819E3-2B43-2057-A723-ED2C203531DD">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>C6C5DF11-E925-FCE5-A25C-C096A41781E0</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="EC8958A7-0974-1D50-00E8-60C851D49145">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>F10B877E-F69E-DAC4-624A-DB8221BDCFFE</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D903635B-8924-C761-95F6-9184A55EB38B" name="Empleado_PK">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>A5E4AD1F-D5AC-E5D2-DED4-1D3B3C8209F1</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91184C67-2627-972E-0A54-71B0128FA288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

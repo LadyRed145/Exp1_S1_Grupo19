@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0809A69-28F3-A80A-0756-2717871CCEB9" name="Vuelos">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>4C0D9A92-0169-707F-2FAE-970EF4AFD345</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FechaDespegue" id="894305A1-DCE2-CD34-B626-86DDB3743CB4">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>55A79815-7405-C946-06A2-BAD6454512EA</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaLlegada" id="EA68D7CD-41E7-E308-3EF6-0896368547E8">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>7DA5FDD9-12FC-1356-AE09-7030B94CFD76</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroVuelo" id="CCDDD419-7512-4D59-39DC-9CC03C3E6028">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>7BC43EF0-04AB-EE5C-C7F4-0A6DE0A2E03D</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraSalida" id="9C3465DB-FF8B-8D1E-215D-9F2DC4C9ADB0">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>CACD976B-BA9C-72D3-D616-C2F7B2B871B2</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pasajeros_NumeroPasaporte" id="C33CF292-8603-200B-F02F-AC79CE872F59">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>FE48E55E-C159-E8E1-32F0-8AFF1F6B9182</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAA5FD80-74D9-ACC2-19CD-A3311F682E17" referredColumn="A108A057-4D0D-A1A4-5801-419164466D40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1676ADC8-6FD9-705C-55C1-0C6421BFF273" name="Vuelos_PK">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>D01B994B-F89F-4026-9CCE-01B6B9DFD8FB</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="894305A1-DCE2-CD34-B626-86DDB3743CB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12F98A8A-65BA-BE96-5B59-3D69C4C526F0" name="Vuelos_Pasajeros_FK">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:09 UTC</createdTime>
+<generatorID>19584D3B-FB8D-7AC1-BE96-8E9628EBE18E</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C33CF292-8603-200B-F02F-AC79CE872F59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

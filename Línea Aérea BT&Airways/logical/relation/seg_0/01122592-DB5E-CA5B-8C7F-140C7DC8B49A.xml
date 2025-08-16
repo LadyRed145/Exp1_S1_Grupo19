@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Despego" directorySegmentName="seg_0" id="01122592-DB5E-CA5B-8C7F-140C7DC8B49A">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 06:38:59 UTC</createdTime>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="864B3CFE-B0C9-6BC1-352B-A898BB8A35DC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Atendido Por:</nameOnSource>
+<nameOnTarget>Trabaja En:</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1CDFD0B0-07B9-1B55-D871-279C68779067</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4C0D9A92-0169-707F-2FAE-970EF4AFD345</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12E2F441-EF14-04AA-AAC5-C514979A5650" name="Reserva">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>C1198829-17AA-EBE2-355F-EB79ADAE31E8</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NumeroReserva" id="B9346136-6737-19A1-12EB-6F45A7BA552D">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>17243D84-BF44-96F4-DB12-A38636F91F68</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaReserva" id="D07F56C4-5D0E-10CB-0C9A-A0C77352EEFE">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>FAB3D3C3-37D6-5394-7BEA-CFFCDD347E67</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaViaje" id="CE55A34B-4C90-36FA-7580-EB96C53F859E">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>F76093B0-A5F6-CF70-93C5-26CBC511C7BC</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="E5711AF0-B8AF-5CEE-32E1-35AA3841E671">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>B01BB232-D618-0258-9C05-12925F200C46</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pasajeros_NumeroPasaporte" id="B6CFB71C-F2BE-D528-8786-1BA8397EE9AD">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>9D6F19E9-A4BF-B585-9CAC-4E26A7A3A3E1</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D79FDE4F-DA63-2C62-0E18-509E99D898FF" referredColumn="A108A057-4D0D-A1A4-5801-419164466D40"/>
+</associations>
+</Column>
+<Column name="Vuelos_FechaDespegue" id="3F3D15B4-C69C-AFA7-1C37-9E6D14A77662">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>24557613-6E36-6B25-6308-ADEAD8303F4A</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D37AFBF-0063-B718-8F96-81B18E9175E2" referredColumn="894305A1-DCE2-CD34-B626-86DDB3743CB4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59BCFF45-F54F-1324-8551-6E1C02C27AF5" name="Reserva_PK">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>5A5DC667-2C3D-C0D9-62C9-797038A65A19</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9346136-6737-19A1-12EB-6F45A7BA552D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2D75C77-6C57-55D0-0D58-64AD01F862CC" name="Reserva__IDX">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:09 UTC</createdTime>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F73FFB89-84D0-85A6-161B-45981BF35BE1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3F3D15B4-C69C-AFA7-1C37-9E6D14A77662"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FA97DF3-0A7F-BB6A-6648-5CF1575C9E79" name="Reserva_Vuelos_FK">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:09 UTC</createdTime>
+<generatorID>F73FFB89-84D0-85A6-161B-45981BF35BE1</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F3D15B4-C69C-AFA7-1C37-9E6D14A77662"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="177EEAA8-9C70-E4A9-4B72-F643DB1AEA1F" name="Reserva_Pasajeros_FK">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:09 UTC</createdTime>
+<generatorID>AA22AAA2-C4BF-2CF4-550A-B548B4E4CA7D</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6CFB71C-F2BE-D528-8786-1BA8397EE9AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

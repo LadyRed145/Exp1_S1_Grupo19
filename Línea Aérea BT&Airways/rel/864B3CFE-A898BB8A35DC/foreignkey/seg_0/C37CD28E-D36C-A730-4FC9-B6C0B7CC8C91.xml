@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C37CD28E-D36C-A730-4FC9-B6C0B7CC8C91" containerWithKeyObject="C417D8ED-EBEC-C36C-753C-D3B49F1B9438" localFKIndex="F6373BF3-CFA8-F33B-C37A-64231DE9C13F" name="Despego_Vuelos_FK">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:09 UTC</createdTime>
+<generatorID>01122592-DB5E-CA5B-8C7F-140C7DC8B49A</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<referredTableLongName>Vuelos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A0809A69-28F3-A80A-0756-2717871CCEB9</referredTableID>
+<keyObject>1676ADC8-6FD9-705C-55C1-0C6421BFF273</keyObject>
+<referredKeyID>1676ADC8-6FD9-705C-55C1-0C6421BFF273</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FechaDespegue</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

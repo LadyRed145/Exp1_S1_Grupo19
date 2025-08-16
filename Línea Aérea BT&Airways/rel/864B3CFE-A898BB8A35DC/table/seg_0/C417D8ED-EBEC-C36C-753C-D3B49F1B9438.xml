@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C417D8ED-EBEC-C36C-753C-D3B49F1B9438" name="Despego">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empleado_RUT" id="2895B1AF-06C1-7F65-3DC7-EC01C026CCA3">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:09 UTC</createdTime>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A86FED22-1EDF-F3E9-0F23-AA092BD77A37" referredColumn="91184C67-2627-972E-0A54-71B0128FA288"/>
+</associations>
+</Column>
+<Column name="Vuelos_FechaDespegue" id="9E26C67D-CF27-8B62-C1AC-6FACE4368CF8">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:09 UTC</createdTime>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C37CD28E-D36C-A730-4FC9-B6C0B7CC8C91" referredColumn="894305A1-DCE2-CD34-B626-86DDB3743CB4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEC758B3-AD11-8B67-0A92-CC2F329D7B92" name="Despego_PK">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2895B1AF-06C1-7F65-3DC7-EC01C026CCA3"/>
+<colUsage columnID="9E26C67D-CF27-8B62-C1AC-6FACE4368CF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3AF7F0A-788B-E7F3-3C01-81445EC64DD9" name="Despego_Empleado_FK">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:08 UTC</createdTime>
+<generatorID>01122592-DB5E-CA5B-8C7F-140C7DC8B49A</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2895B1AF-06C1-7F65-3DC7-EC01C026CCA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6373BF3-CFA8-F33B-C37A-64231DE9C13F" name="Despego_Vuelos_FK">
+<createdBy>NataliaAgustin</createdBy>
+<createdTime>2025-08-15 07:12:09 UTC</createdTime>
+<generatorID>01122592-DB5E-CA5B-8C7F-140C7DC8B49A</generatorID>
+<ownerDesignName>Línea Aérea BT&amp;Airways</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E26C67D-CF27-8B62-C1AC-6FACE4368CF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
